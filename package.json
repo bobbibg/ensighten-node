@@ -1,0 +1,28 @@
+{
+  "name": "ensighten-api",
+  "version": "0.0.1",
+  "description": "Node app for managing Ensighten deployments",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha -R nyan",
+    "lint": "eslint .; exit 0",
+    "docs": "jsdoc2md ./lib/*.js > docs.md"
+  },
+  "author": "Rob Barns-Graham",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0",
+    "jsdoc-to-markdown": "^2.0.0",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6"
+  },
+  "dependencies": {
+    "request": "^2.76.0"
+  }
+}
